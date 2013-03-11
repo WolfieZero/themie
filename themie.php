@@ -102,7 +102,7 @@ class Themie {
      */
     public static function post_types ($theme_dir) {
 
-        $dir    = $theme_dir.'/lib/post_type';
+        $dir    = $theme_dir.'/post_type';
         $files  = array();
         $handle = opendir($dir);
 
